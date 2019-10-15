@@ -1,6 +1,8 @@
 set nocompatible
 set number
-set ruler
+set noruler
+set laststatus=2
+set statusline=%F\ %h%w%m%r%=%-14.(%l,%c%V%)\ %P
 filetype plugin indent on
 syntax on
 set wildmenu
@@ -8,12 +10,11 @@ set showcmd
 set hlsearch
 set background=dark
 set incsearch
-set mouse=a
-set cmdheight=2
+set cmdheight=1
 set visualbell
 set t_vb=
+set mouse=a
 nnoremap <C-L> :nohl<CR><C-L>
 set colorcolumn=80
 hi ColorColumn ctermbg=darkgrey
-set statusline=2
-set expandtab ts=4 sw=4 ai
+set expandtab ts=2 sw=2 ai
