@@ -1,22 +1,8 @@
-source ~/lever/bash/lever-profile
-
-# Load non-bash configuration
-source /Users/oscarbernal/.profile
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-source /Users/oscarbernal/.profile
-
-export PS1="> "
-
-# Use Oz' custom aliases
 alias cd..="cd .."
 alias please="sudo"
 alias ls="ls -al -G"
-alias pull="git pull"
-alias push="git push"
+alias pull="git pull origin master"
+alias push="git push origin HEAD"
 alias c=clear
 alias gti=git
 alias godmode="sudo -s"
@@ -25,4 +11,4 @@ alias sha1="openssl sha1"
 alias ping="ping -c 5"
 alias reload="clear;source ~/.bash_profile"
 
-node Code/greetings/index.js
+alias loading="node ~/Code/greetings/index.js"
