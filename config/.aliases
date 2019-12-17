@@ -9,6 +9,4 @@ alias godmode="sudo -s"
 alias rmdir="rm -r"
 alias sha1="openssl sha1"
 alias ping="ping -c 5"
-alias reload="clear;source ~/.bash_profile"
 
-alias loading="node ~/Code/greetings/index.js"

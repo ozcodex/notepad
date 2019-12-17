@@ -10,5 +10,27 @@ Set-up the wlan0 interface
 See the available connections
 `iwlist scan`
 
+To connect to a WEP network use:
+`iwconfig wlan0 essid NETWORK-ESSID`
+`iwconfig wlan0 key PASSWORD` or `iwconfig wlan0 key s:PASSWORD` if the key is ASCII
+
+To connect to a WPA network you need to:
+generate a hash code of the password:
+`wpa_passphrase NETWORK-ESSID PASSWORD`
+
+then edit `/etc/network/interfaces`
+and add this interface at the end of the file:
+```
+iface wlan0 inet dhcp 
+  wpa-ssid NETWORK-ESSID
+  wpa-psk HASHCODE
+```
+then start the interface: `ifup wlan0`
+
+it's possible to use logical interfaces changing the 'iface wlan0' with 'iface config1'
+or any other name, an then use `ifup wlan0=config1` to start
+
 ## Keyboard Configuration
 it's required to install `keyboard-configuration` and `console-setup` packages
+after the install it ask to selectthe keyboard layout, but you can cahnge it using:
+`dpkg-reconfigure
