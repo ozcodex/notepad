@@ -34,3 +34,17 @@ or any other name, an then use `ifup wlan0=config1` to start
 it's required to install `keyboard-configuration` and `console-setup` packages
 after the install it ask to selectthe keyboard layout, but you can cahnge it using:
 `dpkg-reconfigure
+
+## Directory Structure
+The directory structure that I like to use is formed by 3-5 letters names with the 
+characteristic that the first 2 letters combination is unique in the folder
+```
+home/
+  docs/
+  tmp/
+  media/
+    pics/
+    vids/
+    music/
+  code/
+```
