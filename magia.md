@@ -23,12 +23,12 @@ El brujo es el mas simple usuario de la magia, generalmente un copiador,
 toma la magia creada por magos y otros usuarios de la magia y la utiliza para su propia conveniencia, suele depender de
 hechizos, rituales, talizmanes y otras formulas para poder usar la magia.
 
-### Adivino
+### Adivino
 
 Este tiene una fuerte conexion con la fortuna y el destino de las personas, es capaz de interpretar las señales y leer la
 suerte de las demas personas, pero nunca la propia ni la de otro adivino.
 
-### Vidente
+### Vidente
 
 Puede verse como una bendicion o una maldicion, los videntes tienen visiones del futuro, puede ser propio, de las personas 
 que los rodean o incluso de desconocidos, generalmente no controlan las visiones y estas les llegan en cualquier momento, 
@@ -46,13 +46,13 @@ Es una clase de mago o chaman corrompido, en pocas ocasiones brujo, que hace uso
 la muerte o del mal, generalmente hablan y obtienen sus poderes de contratos con demonios. Algunos pueden levantar a los
 muertos para que les sirvan temporalmente, a estos se le suele llamar Necromante.
 
-### Druida
+### Druida
 
 Los druidas son los magos de la naturaleza, la cuidan, estudian y preservan, tiene una fuerte conexion con la naturaleza.
 Generalmente viven aisaldos y solo se relacionan con los animales y plantas con los cuales son capaces de comunicarse, algunos
 tambien son animagos, teniendo la capacidad de transformarse en un animal.
 
-### Animago
+### Animago
 
 Los Animagos, al igual que los druidas tienen una conexion con la naturaleza, pero a diferencia de estos no son 
 capaces de escucharla, su lado animal se manifiesta permitiendoles transformarse en un animal. Debido a su falta de 
@@ -71,7 +71,7 @@ Usuario de la magia que juega con la persepcion de la realidad, puede cambiar lo
 incluso llegando a crear ilusiones fijas en un lugar de tal forma que todo aquel que las mire verá aquello 
 que el ilusionista haya decidido incluso si el ilusionista ya no se encuentra cerca.
 
-### Encantador
+### Encantador
 
 El encantador puede crear ilusiones mucho mas fuertes, que afectan muchos mas sentidos, pueden hacer sentir a una persona,
 pero no pueden dejar ilusiones fijas en lugares, ademas que requieren hacer uso de artilugios, y establecer contacto con
@@ -85,7 +85,7 @@ Es aquel que puede controlar o manipular la mente de las personas, imbuir pensam
 a cambiar las convicciones de una persona. Los mas poderosos pueden llegar a alterar grandes grupos de personas a la vez
 pero es algo poco usual.
 
-### Taumaturgo
+### Taumaturgo
 
 Este usuario de la magia es uno de los mas poderosos, pero generalmente no tiene control sobre su magia, este tiene la 
 capacidad de alterar completamente el tejido de la realidad, usualmente es visto como un obrador de milagros o prodigios,
@@ -97,7 +97,7 @@ Su poder viene de la intervencion divina, conecta con los dioses para obtener fa
 generalmente debe giar su vida por una serie de preceptos para estar congraciado con los dioses. Se comunica con los dioses
 mediante rezos o canticos.
 
-### Invocador
+### Invocador
 
 El invocador tiene la capacidad de llamar a bestias magicas o elementales desde otros planos o lugares, es un usuario de 
 portales, pudiendo llegar a invocar a otros seres concientes pero solo si estos estan de acuerdo.
