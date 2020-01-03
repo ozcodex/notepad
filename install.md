@@ -62,3 +62,10 @@ for avoid the pasword check I add this line at the end of the file:
 ozcodex ALL=(ALL) NOPASSWD=ALL
 ```
 
+# Instaled Software
+
+To work properly on my very own projects, for fun, or serving any other purpose I have installed
+this software on my machine and I want to keep a record of it.
+
+* git: Very well known version manager
+* nodejs: multipurpose execution enviroment for JS.
