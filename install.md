@@ -48,3 +48,17 @@ home/
     music/
   code/
 ```
+
+## Linking config files
+To complete the configuration I clone this repo and link the config files (such as gitconfig
+or aliases) to the ones on this repo.
+to do this y use symbolic links (a.k.a. soft links) using `ln -s homefile repofile`
+
+## Sudo configuration
+After the installation and first run of sudo, I like to disable the password check on
+each run, so i execute `sudo visudo`, this opens the configuration of sudo.
+for avoid the pasword check I add this line at the end of the file:
+```
+ozcodex ALL=(ALL) NOPASSWD=ALL
+```
+
