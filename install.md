@@ -61,6 +61,13 @@ for avoid the pasword check I add this line at the end of the file:
 ```
 ozcodex ALL=(ALL) NOPASSWD=ALL
 ```
+## Make the sd card reader to work
+copy the file sdhci.config to /etc/modprobe.d/
+then run the command 
+```
+update-initramfs -u -k all
+```
+and reboot the machine
 
 # Instaled Software
 
@@ -69,3 +76,5 @@ this software on my machine and I want to keep a record of it.
 
 * git: Very well known version manager
 * nodejs: multipurpose execution enviroment for JS.
+
+
