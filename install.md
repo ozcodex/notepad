@@ -69,6 +69,11 @@ update-initramfs -u -k all
 ```
 and reboot the machine
 
+## Modify the Welcome message
+
+Copy the motd file to `/etc/motd`
+This file was build using toilet, figlet and linuxlogo
+
 # Instaled Software
 
 To work properly on my very own projects, for fun, or serving any other purpose I have installed
@@ -76,5 +81,5 @@ this software on my machine and I want to keep a record of it.
 
 * git: Very well known version manager
 * nodejs: multipurpose execution enviroment for JS.
-
+* linuxlogo, fidlet, toilet: text banners utility
 

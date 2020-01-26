@@ -9,4 +9,5 @@ alias godmode="sudo -s"
 alias rmdir="rm -r"
 alias sha1="openssl sha1"
 alias ping="ping -c 5"
-
+alias poweroff="sudo poweroff"
+alias halt="sudo poweroff"
