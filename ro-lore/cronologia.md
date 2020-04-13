@@ -7,7 +7,7 @@ hubo una guerra muy importante llamada la guerra de los 1000 años
 eventos importantes que han ocurrido:
 - en la antiguedad Odin crea Midgard a partir del cuerpo y el corazón de Ymir.
 - ocurre la guerra de los 1000 años y la muerte de baldr, surt ataca midgard
-- comienza la maldicion de la familia real con gaebolg I
+- comienza la maldicion de la familia real con Tristán Gaebolg I
 - se funda rune-midgard
 - Surt intenta destruir Midgard de nuevo; es encarcelado por Thanatos
 - La Revolucion del Principe (400 años despues de la guerra)
