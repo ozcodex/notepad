@@ -12,3 +12,6 @@ eventos importantes que han ocurrido:
 - Surt intenta destruir Midgard de nuevo; es encarcelado por Thanatos
 - La Revolucion del Principe (400 años despues de la guerra)
 - Muere el Rey Ouzel Richard (509 años despues de la guerra)
+- Schmitz Von Walter asume el poder como Rey de Rune-Midgard (511)
+- El Rey Schmitz es derrocado por Grenholm Von Gaebolg (529)
+- el Sr. Rekenber es el nuevo presidente del grupo Zenit Zerter Lighthal Research (560)
