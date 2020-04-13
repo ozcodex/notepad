@@ -21,8 +21,8 @@ pero en lo que a mi concierne prefiero pensar que con la llegada de new world to
 
 # Indice
 
-- cronologia
-- ciudades
+- [cronologia](./cronologia.md)
+- [ciudades](./ciudades.md)
 - episodios 
 - dungeons
 - mobs
