@@ -27,4 +27,15 @@ hechos:
 - la segunda explosion demografica fue bajo el mando de Tristan III
 - debido al segundo crecimiento se creo la ciudad satelite Izlude
 - por decreto (de tristan III?) los caballeros deben ser ordenados el prontera
-- para alivianar la ciudad el gremio de 
+- para alivianar la ciudad el gremio de espadachines fue movido para Izlude
+
+# Geffen
+
+hechos:
+- los elfos vivian en geffenia (colonia proveniente de Alfheim)
+- durante la guerra contra glast heim, glast heim iba ganando y los elfos se llenaron de odio
+- los elfos invocaron fuerzas oscuras y demonios, se firmaron pactos, se revivian muertos
+- terminada la guerra los elfos sobrevivientes crearon una barrera magica para mantener el mal confinado
+- la ciudad de geffen fue creada sobre las ruinas de gefenia para proteger ese sello y mantener al mundo a salvo
+- con el tiempo los pocos elfos sobrevivientes se hicieron amigos de los humanos y les enseñaron la magia
+- los humanos de geffen crearon la academia magica para transmitir ese conocimiento
