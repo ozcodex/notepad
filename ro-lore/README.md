@@ -28,6 +28,14 @@ pero en lo que a mi concierne prefiero pensar que con la llegada de new world to
 - mobs
 - mitos
 
-# Informacion suelta
+# Informacion suelta
 
 rune midgar fue fundado por 7 principes, de ahi salen 7 familias que se pelean el poder, la principal y que asumio el poder fue la del principe que derrotó a Jörmundgander (Tristan Gaelbog I) sobre quien cae una maldicion....
+
+la torre de tanatos fue construida en honor a thanatos por los dioses y alli fue puesto su cadaver
+la torre es custodiada por angeles y espiritus protectores puestos alli por los dioses (sentinels)
+la lucha de thanatos contra surt (satan) duró 10 dias, despues de ser encerrado bajo el desierto de sorgat
+fue construido un palacio, y al rededor del palacio con los años se construyó una ciudad.
+con los años la torre cayo en el olvido y el deterioro y los sentimientos de thanatos empezaron a manifestarse
+como fantasmas en la torre, los atributos de estos sentimientos son: Dolor (el dolor o la agonia), Odium (el odio), Maero (la tristeza, la miseria, o la pena), y Despero (la desesperación)
+
