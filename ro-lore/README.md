@@ -27,3 +27,7 @@ pero en lo que a mi concierne prefiero pensar que con la llegada de new world to
 - dungeons
 - mobs
 - mitos
+
+# Informacion suelta
+
+rune midgar fue fundado por 7 principes, de ahi salen 7 familias que se pelean el poder, la principal y que asumio el poder fue la del principe que derrotó a Jörmundgander (Tristan Gaelbog I) sobre quien cae una maldicion....
