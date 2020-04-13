@@ -39,3 +39,14 @@ hechos:
 - la ciudad de geffen fue creada sobre las ruinas de gefenia para proteger ese sello y mantener al mundo a salvo
 - con el tiempo los pocos elfos sobrevivientes se hicieron amigos de los humanos y les enseñaron la magia
 - los humanos de geffen crearon la academia magica para transmitir ese conocimiento
+
+# Morroc
+
+hechos:
+- los antiguos moradores del desierto eran habiles escultores.
+- Satan morroc lucho durante 10 dias y 10 noches contra thanatos
+- la lucha ocurrio en el desierto de Sograt 
+- Satan morroc fue derrotado y encerrado y sobre sello se construyo un santuario
+- se termino formando una ciudad llamada morroc.
+- 1000 años despues satan morroc fue invocado destruyendo la ciudad
+- la oscuridad se apodera de la ciudad y el desierto a sus alrededores
