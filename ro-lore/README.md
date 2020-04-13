@@ -14,6 +14,10 @@ igualmente intentare escribir y darle un orden a la informacion que encuentro en
 asi como tratar de confirmar esa informacion atravez de los npc en el juego, de esta forma
 puedo tener una fuente fiable.
 
+En este tratado solo se tendra en cuenta el curso de la historia hasta lo ocurrido hasta antes de la salida de renewal
+(ep. 13/2008) lo que sucede en renewal quizas sea tenido como rumores, mitos o si ayuda a darle conclusion a la historia,
+pero en lo que a mi concierne prefiero pensar que con la llegada de new world todo termino, no se sabe casi nada de lo que hay mas alla y de como ah afectado el mundo, o quizas me invente mi propia conclusion despues de conocer mas sobre el lore.
+
 # Indice
 
 - ciudades
