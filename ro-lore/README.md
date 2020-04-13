@@ -9,6 +9,7 @@ he encontrado alguna informacion interesante en estas paginas web:
 - https://ragnaroklore.shivtr.com/
 - https://forums.warpportal.com/index.php?/topic/106898-encyclopaedia-ragnarok-monster-lore-mitten/
 - https://cronistarmragnarok.com/
+- https://ragnarok.gamepedia.com/Category:Races
 
 igualmente intentare escribir y darle un orden a la informacion que encuentro en la red
 asi como tratar de confirmar esa informacion atravez de los npc en el juego, de esta forma
