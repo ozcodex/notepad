@@ -20,8 +20,9 @@ pero en lo que a mi concierne prefiero pensar que con la llegada de new world to
 
 # Indice
 
+- cronologia
 - ciudades
-- episodios
+- episodios 
 - dungeons
 - mobs
 - mitos
