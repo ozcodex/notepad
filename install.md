@@ -54,12 +54,19 @@ To complete the configuration I clone this repo and link the config files (such 
 or aliases) to the ones on this repo.
 to do this y use symbolic links (a.k.a. soft links) using `ln -s homefile repofile`
 
-## Sudo configuration
+## Privileges configuration
 After the installation and first run of sudo, I like to disable the password check on
 each run, so i execute `sudo visudo`, this opens the configuration of sudo.
 for avoid the pasword check I add this line at the end of the file:
 ```
 ozcodex ALL=(ALL) NOPASSWD=ALL
+```
+
+Add user to disk group
+
+```
+sudo usermod -G disk -a ozcodex
+
 ```
 ## Make the sd card reader to work
 copy the file sdhci.config to /etc/modprobe.d/
