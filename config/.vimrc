@@ -18,3 +18,4 @@ nnoremap <C-L> :nohl<CR><C-L>
 set colorcolumn=80
 hi ColorColumn ctermbg=darkgrey
 set expandtab ts=2 sw=2 ai
+set clipboard=unnamedplus
