@@ -2,8 +2,11 @@
 [user]
 # Please adapt and uncomment the following lines:
 	name = "Oscar Bernal"
-  email = "oscarbernal93@gmail.com"
+	email = "oscarbernal93@gmail.com"
+	signingkey = B7E4C8F80503C97E
 [core]
 	editor = vi
-  filemode = false
-  ignorecase = false
+	filemode = false
+	ignorecase = false
+[commit]
+	gpgsign = true
