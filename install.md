@@ -90,3 +90,4 @@ this software on my machine and I want to keep a record of it.
 * nodejs: multipurpose execution enviroment for JS.
 * linuxlogo, fidlet, toilet: text banners utility
 * openssh-server: ssh tunnel connection
+* build-essencials: to compile software
