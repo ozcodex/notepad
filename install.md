@@ -91,3 +91,5 @@ this software on my machine and I want to keep a record of it.
 * linuxlogo, fidlet, toilet: text banners utility
 * openssh-server: ssh tunnel connection
 * build-essencials: to compile software
+* acpitool: to manage the power interfaces:q
+
