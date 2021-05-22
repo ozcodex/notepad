@@ -81,6 +81,10 @@ and reboot the machine
 Copy the motd file to `/etc/motd`
 This file was build using toilet, figlet and linuxlogo
 
+##Setup the battery control
+
+Add a crontab rule to run the `script/battery_check` each 15 minutes.
+
 # Instaled Software
 
 To work properly on my very own projects, for fun, or serving any other purpose I have installed
