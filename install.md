@@ -85,11 +85,11 @@ This file was build using toilet, figlet and linuxlogo
 
 Add a crontab rule to run the `script/battery_check` each 15 minutes.
 
-To prevent the system to hang on "halted" state when powering off add the next
-line to grub:
+To prevent the system to hang on "halted" state when powering off, and avoid
+printing warnings in the console, add the next kernel params to grub:
 
 ```
-GRUB_CMDLINE_LINUX="acpi=force"
+acpi=force loglevel=1
 ```
 
 Also edit the file `/etc/systemd/logind.conf` to control the behaviour of the
