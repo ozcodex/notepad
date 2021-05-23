@@ -1,6 +1,6 @@
 alias cd..="cd .."
 alias please="sudo"
-alias ls="ls -al -G --color"
+alias ls="ls -l -G --color"
 alias pull="git pull origin master"
 alias push="git push origin HEAD"
 alias c=clear
