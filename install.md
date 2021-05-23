@@ -85,6 +85,24 @@ This file was build using toilet, figlet and linuxlogo
 
 Add a crontab rule to run the `script/battery_check` each 15 minutes.
 
+To prevent the system to hang on "halted" state when powering off add the next
+line to grub:
+
+```
+GRUB_CMDLINE_LINUX="acpi=force"
+```
+
+Also edit the file `/etc/systemd/logind.conf` to control the behaviour of the
+laptop lid and the power button.
+
+```
+[Login]
+HandlePowerKey=poweroff
+HandleSuspendKey=poweroff
+HandleLidSwitch=ignore
+
+```
+
 # Instaled Software
 
 To work properly on my very own projects, for fun, or serving any other purpose I have installed
@@ -96,4 +114,5 @@ this software on my machine and I want to keep a record of it.
 * openssh-server: ssh tunnel connection
 * build-essencials: to compile software
 * acpitool: to manage the power interfaces:q
+
 
