@@ -115,5 +115,5 @@ I have installed this software on my machine and I want to keep a record of it.
 * openssh-server: ssh tunnel connection
 * build-essencials: to compile software
 * acpitool: to manage the power interfaces
-
+* zerotier: to access remotely to the network
 
