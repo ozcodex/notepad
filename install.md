@@ -82,7 +82,7 @@ and reboot the machine
 Copy the motd file to `/etc/motd`
 This file was build using toilet, figlet and linuxlogo
 
-##Setup the battery control
+## Setup the battery control
 
 Add a crontab rule to run the `script/battery_check` each 15 minutes.
 
@@ -104,6 +104,12 @@ HandleLidSwitch=ignore
 
 ```
 
+## Change the dsplay backlight level
+
+the file `/sys/class/backlight/intel_backlight/brightness` contains the light
+level of the backlight, can be changed directly with sudo but cannot be less
+than 0 or more than the max level, spicified by a file in the same folder
+
 # Instaled Software
 
 To work properly on my very own projects, for fun, or serving any other purpose
@@ -116,4 +122,7 @@ I have installed this software on my machine and I want to keep a record of it.
 * build-essencials: to compile software
 * acpitool: to manage the power interfaces
 * zerotier: to access remotely to the network
-
+* frotz: z-machine emulator to play zork
+* zip: manage compressed files
+* bsdgames: a collection of text based games
+* bastet: a text based tetris game
