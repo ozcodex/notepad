@@ -126,3 +126,10 @@ I have installed this software on my machine and I want to keep a record of it.
 * zip: manage compressed files
 * bsdgames: a collection of text based games
 * bastet: a text based tetris game
+* nudoku: sudoku game
+* greed: puzzle game
+* gnuchess: chess game
+* cmatrix: screensaver
+* curseofwar: real time strategy game
+* ninvaders: space invaders clone
+* empire: war simulator game
