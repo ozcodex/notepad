@@ -133,8 +133,12 @@ I have installed this software on my machine and I want to keep a record of it.
 * curseofwar: real time strategy game
 * ninvaders: space invaders clone
 * empire: war simulator game
-* lpr: printer manager
+* freesweep: minesweeper game
 * printer-driver-all: utilities and drivers to print
 * hp-ppd: drivers for hp printers
 * hplip: (source) to have the latest hp drivers
 * fbi: to display images using the framebuffer
+* fbcat: takes screenshots to ppm format
+* gpm: general prupouse mouse
+* libsane-hpaio: hp scanner drivers
+* kiwix:: (source) to serve zim files
