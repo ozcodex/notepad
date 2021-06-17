@@ -141,4 +141,6 @@ I have installed this software on my machine and I want to keep a record of it.
 * fbcat: takes screenshots to ppm format
 * gpm: general prupouse mouse
 * libsane-hpaio: hp scanner drivers
-* kiwix:: (source) to serve zim files
+* kiwix: (source) to serve zim files
+* mirconucleus: (source) to comunicate with attiny85
+* libusb-dev: to make micronucleus work
