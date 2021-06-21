@@ -144,3 +144,13 @@ I have installed this software on my machine and I want to keep a record of it.
 * kiwix: (source) to serve zim files
 * mirconucleus: (source) to comunicate with attiny85
 * libusb-dev: to make micronucleus work
+* python3-pip: package manager for python
+* arduino-cli: (source) arduino tools
+* nmap: to chock devices over network
+
+## Python Apps installed
+
+This apps are istaled through pip installer.
+
+* esptool: Communication wit Wemos and ESP devices
+* setuptools: needed for esptools
