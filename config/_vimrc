@@ -13,7 +13,6 @@ set incsearch
 set cmdheight=1
 set visualbell
 set t_vb=
-set mouse=a
 nnoremap <C-L> :nohl<CR><C-L>
 set colorcolumn=80
 hi ColorColumn ctermbg=darkgrey

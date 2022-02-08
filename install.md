@@ -104,11 +104,17 @@ HandleLidSwitch=ignore
 
 ```
 
-## Change the dsplay backlight level
+## Change the display backlight level
 
 the file `/sys/class/backlight/intel_backlight/brightness` contains the light
 level of the backlight, can be changed directly with sudo but cannot be less
 than 0 or more than the max level, spicified by a file in the same folder
+
+## Install the latest NodeJS
+
+using the nodesource setup script, just have to download it and run it as root.
+
+`curl -sL https://deb.nodesource.com/setup_16.x -o nodesource_setup.sh`
 
 # Instaled Software
 
@@ -154,3 +160,12 @@ This apps are istaled through pip installer.
 
 * esptool: Communication wit Wemos and ESP devices
 * setuptools: needed for esptools
+
+## Node Apps installed
+
+This apps are instaled with the global flag of npm
+
+* express-generator: generador para applicaciones express
+* heroku: client to connect heroku
+* prettier: js code formater
+
