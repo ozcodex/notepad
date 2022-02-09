@@ -29,3 +29,7 @@ opening bracket in the same line
 never use var
 
 always use ending semicolon
+
+single quotes every time possible
+
+declare all variables that will be used at begining of scope
