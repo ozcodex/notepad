@@ -40,7 +40,9 @@ The reccomended directory structure is formed by 3-5 letters names with the
 characteristic that the first 2 letters combination is unique in the folder
 ```
 home/
+  desk/
   docs/
+    templates/
   tmp/
   media/
     pics/
@@ -153,6 +155,7 @@ I have installed this software on my machine and I want to keep a record of it.
 * python3-pip: package manager for python
 * arduino-cli: (source) arduino tools
 * nmap: to chock devices over network
+* neofetch: shows sistem information
 
 ## Python Apps installed
 
@@ -169,3 +172,19 @@ This apps are instaled with the global flag of npm
 * heroku: client to connect heroku
 * prettier: js code formater
 
+## Graphical Inferface
+
+To have a working graphical interface, xfce4 was installed, with minimal
+adittional software, then manually installed the needed packages and run the
+following configurations:
+
+* wicd: to manage the wireless connections
+* xfce4-battery-plugin
+* xfce4-terminal
+* xfce4-screenshooter
+* mousepad: text editor
+* ristretto: image viewer
+* firefox-esr: internet browser
+* dosbox: for play old DOS games
+* xdg-user-dirs: to setup the user directories
+* 7zip
