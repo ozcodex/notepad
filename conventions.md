@@ -22,6 +22,8 @@ no tabs, two spaces for identation
 
 opening bracket in the same line
 
+Comments should resolve why questions, no what question, if dont then remove it
+
 ## Languaje Specific
 
 ### Javascript
@@ -33,3 +35,5 @@ always use ending semicolon
 single quotes every time possible
 
 declare all variables that will be used at begining of scope
+
+promise chain is dead, looks cool, but is hard to mantain
