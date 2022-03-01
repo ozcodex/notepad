@@ -147,13 +147,16 @@ configure modprod file and reinstall pulseaudio, alsamixer and pavucontrol
 
 wget -qO- https://gist.github.com/heikomat/3fe272431b44b580c933bfb901a92257/raw | bash
 
+????? pacmd set-default-sink $(pactl list short sinks | grep cx2072x | cut -c1)
+
+
 # Instaled Software
 
 To work properly on my very own projects, for fun, or serving any other purpose
 I have installed this software on my machine and I want to keep a record of it.
 
 * git: Very well known version manager
-* nodejs: multipurpose execution enviroment for JS.
+* nodejs: multipurpose execution enviroment for JS.wget -qO- https://gist.github.com/heikomat/3fe272431b44b580c933bfb901a92257/raw | bash
 * linuxlogo, fidlet, toilet: text banners utility
 * openssh-server: ssh tunnel connection
 * build-essencials: to compile software
@@ -220,7 +223,8 @@ following configurations:
 * aptitude: to try to handle broken packages
 * menulibre: to customize the main menu
 * xfce4-power-manager
-* xfce4-blue
+* blueman
+* chesee
 
 Games:
 
