@@ -149,6 +149,9 @@ wget -qO- https://gist.github.com/heikomat/3fe272431b44b580c933bfb901a92257/raw 
 
 ????? pacmd set-default-sink $(pactl list short sinks | grep cx2072x | cut -c1)
 
+git clone https://github.com/Borys64/X205TAudio
+cd X205TAudio
+sudo bash script.sh
 
 # Instaled Software
 
