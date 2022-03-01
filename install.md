@@ -142,7 +142,10 @@ Enable service
 `systemctl enable btattach`
 
 ## Setup Audio
+
 configure modprod file and reinstall pulseaudio, alsamixer and pavucontrol
+
+wget -qO- https://gist.github.com/heikomat/3fe272431b44b580c933bfb901a92257/raw | bash
 
 # Instaled Software
 
