@@ -14,10 +14,14 @@ To enable the dvorak keyboard distribution, the line used was
 create the folder drives inside .dosbox
 and add the mount lines to autoexec
 
+```
 MOUNT A ~/.dosbox/drives/a
 MOUNT C ~/.dosbox/drives/c
 C:/
+```
 
 ## Install windows 3.1
 
 downlad the files and put it on c driver folder
+
+add `windows.bat` to autorun

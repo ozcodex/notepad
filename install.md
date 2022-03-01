@@ -188,3 +188,43 @@ following configurations:
 * dosbox: for play old DOS games
 * xdg-user-dirs: to setup the user directories
 * 7zip
+* aptitude: to try to handle broken packages
+* menulibre: to customize the main menu
+* xfce4-power-manager
+
+Games:
+
+* flare
+* micropolis
+* nethack-x11 
+* freedoom
+* openarena
+* minetest
+* adonthell
+* freedink
+* freedroid
+* manaplus
+
+* uqm
+* assaultcube
+* abuse
+
+* openttd
+* singularity
+* ardentryst
+* dwarf-fortress
+* bomberclone
+* ceferino
+* freegish
+* geki2
+* geki3
+* mousetrap
+* supertux
+* boswars
+* freeorion
+* freeciv
+* Lightyears
+* pingus
+* warmux
+* 7kingdoms
+* SuperTuxKart
