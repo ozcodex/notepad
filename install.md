@@ -210,8 +210,19 @@ This apps are instaled with the global flag of npm
 ## Graphical Inferface
 
 To have a working graphical interface, xfce4 was installed, with minimal
-adittional software, then manually installed the needed packages and run the
-following configurations:
+adittional software, then manually installed the packages listed below.
+
+## Touchpad config
+disabled while typing was enabled by default.
+`xinput` to list devices and get the device id (12 in this case)
+`xinput list-props 12` to get all the settings available (322 is the one i was looking for)
+`xinput set-prop 12 322 0`  disable the setting
+
+## Disable suspend and hibernate buttons
+xfconf-query -c xfce4-session -np '/shutdown/ShowSuspend' -t 'bool' -s 'false' 
+xfconf-query -c xfce4-session -np '/shutdown/ShowHibernate' -t 'bool' -s 'false' 
+
+Installed apps:
 
 * wicd: to manage the wireless connections
 * xfce4-battery-plugin
@@ -227,7 +238,9 @@ following configurations:
 * menulibre: to customize the main menu
 * xfce4-power-manager
 * blueman
-* chesee
+* cheese
+* vlc
+* xinput
 
 Games:
 
@@ -241,15 +254,9 @@ Games:
 * freedink
 * freedroid
 * manaplus
-
-* uqm
-* assaultcube
-* abuse
-
 * openttd
 * singularity
 * ardentryst
-* dwarf-fortress
 * bomberclone
 * ceferino
 * freegish
@@ -258,10 +265,12 @@ Games:
 * mousetrap
 * supertux
 * boswars
+* uqm
+* assaultcube
 * freeorion
 * freeciv
 * Lightyears
 * pingus
 * warmux
-* 7kingdoms
-* SuperTuxKart
+* supertuxkart
+* 7kaa
