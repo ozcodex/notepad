@@ -38,4 +38,11 @@ led.off
 
 ## Micropython On the TTGO T-Watch 2020 (ESP32 16Mb)
 
-the baud rate of this 460800
+the baud rate of this board seems to be 460800
+
+for some reason flashing the firmware was harder than I expected.
+
+Taking the firmware from https://github.com/russhughes/st7789_mpy
+and using thonny to upload it seems to work.
+
+
