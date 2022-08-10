@@ -45,4 +45,5 @@ for some reason flashing the firmware was harder than I expected.
 Taking the firmware from https://github.com/russhughes/st7789_mpy
 and using thonny to upload it seems to work.
 
+the code examples are from https://nick.zoic.org/art/lilygo-ttgo-t-watch-2020/
 
