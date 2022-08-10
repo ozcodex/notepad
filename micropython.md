@@ -26,3 +26,12 @@ so disabling the default AP is required.
 import network; network.WLAN(network.AP_IF).active(False)
 
 then the interactive shell should be working without problems, even after restart the board.
+
+### Notes
+
+pin 2 is the on board led can be controled by
+```
+led=Signal(Pin(2, Pin.OUT), invert=True)
+led.on()
+led.off
+```
