@@ -1,0 +1,13 @@
+## On the Wemos D1 mini (ESP8266 4Mb)
+
+Starting from a fresh board
+when connected appears on /dev/ttyUSB0
+
+With python installed and the esptool pip package
+
+Downloaded the firmware from 
+https://micropython.org/download/esp8266/
+
+because a lack of permissions I had to add my user to the 
+sudo usermod -a -G dialout oz
+
