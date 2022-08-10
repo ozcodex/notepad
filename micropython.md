@@ -1,4 +1,4 @@
-## On the Wemos D1 mini (ESP8266 4Mb)
+## Micropython On the Wemos D1 mini (ESP8266 4Mb)
 
 Starting from a fresh board
 when connected appears on /dev/ttyUSB0
@@ -35,3 +35,7 @@ led=Signal(Pin(2, Pin.OUT), invert=True)
 led.on()
 led.off
 ```
+
+## Micropython On the TTGO T-Watch 2020 (ESP32 16Mb)
+
+the baud rate of this 460800
