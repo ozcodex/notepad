@@ -31,6 +31,7 @@ then the interactive shell should be working without problems, even after restar
 
 pin 2 is the on board led can be controled by
 ```
+from machine import Pin, Signal
 led=Signal(Pin(2, Pin.OUT), invert=True)
 led.on()
 led.off
