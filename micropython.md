@@ -15,5 +15,14 @@ then I can erase the flash memory
 esptool.py --port /dev/ttyUSB0 erase_flash
 
 preceed to install the firmware
-esptool.py --port /dev/ttyUSB0 --baud 1000000 write_flash --flash_size=4MB -fm dio 0 ./Downloads/esp8266-20220618-v1.19.1.bin
+esptool.py --port /dev/ttyUSB0 --baud 115200 write_flash --flash_size=4MB -fm dio 0 ./Downloads/esp8266-20220618-v1.19.1.bin
 
+now REPL can be connected throw minicom
+minicom -D /dev/ttyUSB0 -b 115200
+
+There are a power issue that is solved dissabling the default Access Point.
+so disabling the default AP is required.
+
+import network; network.WLAN(network.AP_IF).active(False)
+
+then the interactive shell should be working without problems, even after restart the board.
