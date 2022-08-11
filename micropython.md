@@ -48,3 +48,4 @@ and using thonny to upload it seems to work.
 
 the code examples are from https://nick.zoic.org/art/lilygo-ttgo-t-watch-2020/
 
+other code are taken from https://github.com/lewisxhe/MicroPython-for-TTGO-T-Watch
