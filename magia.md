@@ -124,3 +124,5 @@ El invocador tiene la capacidad de llamar a bestias magicas o elementales desde
 otros planos o lugares, es un usuario de portales, pudiendo llegar a invocar a
 otros seres concientes pero solo si estos estan de acuerdo.
 
+### Prestidigitador
+Es el usuario mas debil de la magia, muchas veces ni siquiera la usa. Por medio de artilugios, métodos de confusión y artes de evasión, produce todo tipo de engaños a los sentidos de quien lo observa. Puden ser Ilusionistas que gustan del espectaculo o simples charlatanes.
