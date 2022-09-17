@@ -9,3 +9,5 @@
 	ignorecase = false
 [commit]
 	gpgsign = false
+[pull]
+	rebase = false

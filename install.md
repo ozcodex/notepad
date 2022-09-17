@@ -1,4 +1,5 @@
 # Installation Journal
+----------------------
 
 Based on a fresh debian installation
 This are the steps used to configure the powerful x205ta machine.
@@ -154,6 +155,7 @@ cd X205TAudio
 sudo bash script.sh
 
 # Instaled Software
+-------------------
 
 To work properly on my very own projects, for fun, or serving any other purpose
 I have installed this software on my machine and I want to keep a record of it.
@@ -191,15 +193,16 @@ I have installed this software on my machine and I want to keep a record of it.
 * arduino-cli: (source) arduino tools
 * nmap: to chock devices over network
 * neofetch: shows sistem information
+* upgrade-system: to upgrade debian
 
-## Python Apps installed
+### Python Apps installed
 
 This apps are istaled through pip installer.
 
 * esptool: Communication wit Wemos and ESP devices
 * setuptools: needed for esptools
 
-## Node Apps installed
+### Node Apps installed
 
 This apps are instaled with the global flag of npm
 
@@ -207,24 +210,10 @@ This apps are instaled with the global flag of npm
 * heroku: client to connect heroku
 * prettier: js code formater
 
-## Graphical Inferface
+### Graphical Interface Apps 
 
-To have a working graphical interface, xfce4 was installed, with minimal
-adittional software, then manually installed the packages listed below.
-
-## Touchpad config
-disabled while typing was enabled by default.
-`xinput` to list devices and get the device id (12 in this case)
-`xinput list-props 12` to get all the settings available (322 is the one i was looking for)
-`xinput set-prop 12 322 0`  disable the setting
-
-## Disable suspend and hibernate buttons
-xfconf-query -c xfce4-session -np '/shutdown/ShowSuspend' -t 'bool' -s 'false' 
-xfconf-query -c xfce4-session -np '/shutdown/ShowHibernate' -t 'bool' -s 'false' 
-
-Installed apps:
-
-* wicd: to manage the wireless connections
+* network-manager
+* nm-tray
 * xfce4-battery-plugin
 * xfce4-terminal
 * xfce4-screenshooter
@@ -238,11 +227,11 @@ Installed apps:
 * menulibre: to customize the main menu
 * xfce4-power-manager
 * blueman
-* cheese
 * vlc
 * xinput
+* grub-customizer
 
-Games:
+### Games Installed
 
 * flare
 * micropolis
@@ -258,7 +247,6 @@ Games:
 * singularity
 * ardentryst
 * bomberclone
-* ceferino
 * freegish
 * geki2
 * geki3
@@ -274,3 +262,79 @@ Games:
 * warmux
 * supertuxkart
 * 7kaa
+
+
+# Graphical Inferface
+----------------------
+
+To have a working graphical interface, xfce4 was installed, with minimal
+adittional software, then manually installed the packages listed below.
+
+## Touchpad config
+disabled while typing was enabled by default.
+`xinput` to list devices and get the device id (12 in this case)
+`xinput list-props 12` to get all the settings available (322 is the one i was looking for)
+`xinput set-prop 12 322 0`  disable the setting
+
+## Disable suspend and hibernate buttons
+```
+xfconf-query -c xfce4-session -np '/shutdown/ShowSuspend' -t 'bool' -s 'false' 
+xfconf-query -c xfce4-session -np '/shutdown/ShowHibernate' -t 'bool' -s 'false' 
+```
+
+## Fix Assaultcube error 11
+edit `/usr/share/games/assaultcube/config/autoexec.cfg` and add `ati_mda_bug 1`
+
+## enable autologin in lightdm
+
+edit the file /etc/lightdm/lightdm.conf setting the configurations:
+
+```
+autologin-user=ozcodex
+autologin-user-timeout=0
+```
+
+# Doing a Debian System upgrade
+-------------------------------
+
+## from strech to buster
+
+first upgrade all packages
+```
+apt-get update
+apt-get upgrade
+apt-get dist-upgrade
+```
+
+then backup the source list
+`cp /etc/apt/sources.list /etc/apt/sources.list_backup`
+
+change the repository in sources file
+sed -i 's/stretch/buster/g' /etc/apt/sources.list
+
+run the command `upgrade-system` and cross fingers
+
+## from buster to bullseye
+
+change buster to bullseye
+and buster/security to bullseye-updates/security
+in source.list file
+
+## Removes
+
+picom
+adonthell
+geki2
+freeciv
+greed
+warmux
+7kaa
+openttd
+freedink
+bomberclone
+boswars
+freedroid
+freegish
+ardentryst
+dosbox
+flare
